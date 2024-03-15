@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-theme="retro">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/0.B60yFwoz.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.l9xByEmW.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.D-cBGafI.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.CtbWrGNo.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BKV-dBCJ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.B_V50JHN.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.D3mJ0mGw.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.O_8z_yzr.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="hero min-h-screen"><div class="h-50 hero-content flex flex-col"><h1 class="text-5xl font-bold" data-svelte-h="svelte-x3op9a">SCRN RCRDR</h1> <button class="btn btn-primary rounded-full" data-svelte-h="svelte-14rmg0o"><svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256-96a96 96 0 1 1 0 192 96 96 0 1 1 0-192zm0 224a128 128 0 1 0 0-256 128 128 0 1 0 0 256zm0-96a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"></path></svg>Start Recording</button></div></div> 
+			
+			<script>
+				{
+					__sveltekit_1lshhtf = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/r3dcap"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.l9xByEmW.js"),
+						import("./_app/immutable/entry/app.BKV-dBCJ.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
